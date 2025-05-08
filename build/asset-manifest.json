@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FlexibilityServices/static/css/main.62cc0056.css",
+    "main.js": "/FlexibilityServices/static/js/main.7a11b4c7.js",
+    "index.html": "/FlexibilityServices/index.html",
+    "main.62cc0056.css.map": "/FlexibilityServices/static/css/main.62cc0056.css.map",
+    "main.7a11b4c7.js.map": "/FlexibilityServices/static/js/main.7a11b4c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62cc0056.css",
+    "static/js/main.7a11b4c7.js"
+  ]
+}

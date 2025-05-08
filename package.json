@@ -1,25 +1,29 @@
 {
   "name": "react-ts-header-project",
   "version": "1.0.0",
+  "homepage": "https://pokenem.github.io/FlexibilityServices",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy":   "gh-pages -d build"
   },
   "dependencies": {
+    "i18next": "^22.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "^6.9.0",
-    "i18next": "^22.0.0",
-    "react-i18next": "^12.0.0"
+    "react-i18next": "^12.0.0",
+    "react-router-dom": "^6.9.0"
   },
   "devDependencies": {
-    "typescript": "^4.0.0",
-    "react-scripts": "5.0.1",
     "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0"
+    "@types/react-dom": "^18.0.0",
+    "gh-pages": "^5.0.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.0.0"
   },
   "browserslist": {
     "production": [
