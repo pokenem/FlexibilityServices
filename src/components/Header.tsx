@@ -12,8 +12,8 @@ const Header: React.FC = () => {
     return (
         <header className="header">
             <div className="logo-section">
-                <img src="/assets/images/logo.svg" alt="logo" className="logo"/>
-                <span className="company-name">{t('companyName')}</span>
+                <img src={process.env.PUBLIC_URL + '/logo.svg'} alt="logo" className="logo"/>
+                <div className="company-name">{t('companyName')}</div>
             </div>
             <nav className={`nav ${isOpen ? 'open' : ''}`}>
                 {[

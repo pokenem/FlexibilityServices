@@ -1,3 +1,14 @@
 import React from 'react';
-const AboutUs: React.FC = () => <h1>About Us Page</h1>;
+import Team from '../components/about_us/Team';
+import AutoSlider from '../components/about_us/AutoSlider';
+import AboutUsTop from "../components/about_us/AboutUsTop";
+
+const AboutUs: React.FC = () => (
+    <div className="about-container">
+        <AboutUsTop/>
+        <Team />
+        <AutoSlider />
+    </div>
+);
+
 export default AboutUs;

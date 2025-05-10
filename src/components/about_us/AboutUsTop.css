@@ -1,0 +1,25 @@
+.image-stack-container {
+    position: relative;
+    width: 400px; /* Или задайте через `vw`, `%`, и т.д. */
+    height: 400px;
+}
+
+.image-stack-container .image {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.image.back {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+}
+
+.image.front {
+    z-index: 2;
+    top: 50px;
+    left: 50px;
+}

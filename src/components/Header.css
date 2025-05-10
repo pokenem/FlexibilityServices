@@ -71,7 +71,7 @@
         position: absolute;
         top: 60px;
         right: 0;
-        background: none;
+        background: rgba(255, 255, 255, 0.5);
         flex-direction: column;
         width: 200px;
         transform: translateX(100%);
